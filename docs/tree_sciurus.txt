@@ -1,0 +1,32 @@
+                              ╭────── NC_050018.1 Sciurus granatensis (Red-tailed squirrel)
+                         ╭ 97 ┤
+                         │    ╰────── NC_050013.1 Sciurus colliaei (Collie's squirrel)
+                    ╭ 97 ┤
+                    │    │    ╭────── NC_050016.1 Sciurus yucatanensis (Yucatan squirrel)
+                    │    ╰ 97 ┤
+                    │         ╰────── NC_050015.1 Sciurus variegatoides (Variegated squirrel)
+               ╭ 96 ┤
+               │    │               ╭ NC_050012.1 Sciurus carolinensis (Gray squirrel)
+               │    │         ╭ 100 ┤
+               │    │         │     ╰ KY411003.1 Sciurus niger (Fox squirrel)
+               │    │    ╭ 96 ┤
+               │    │    │    ╰────── NC_050017.1 Sciurus pucheranii
+               │    ╰ 96 ┤
+               │         ╰─────────── NC_050032.1 Sciurus ignitus (Bolivian squirrel)
+          ╭ 96 ┤
+          │    │     ╭─────────────── NC_050014.1 Sciurus nayaritensis
+          │    ╰ 100 ┤
+          │          ╰─────────────── NC_050011.1 Sciurus arizonensis
+     ╭ 95 ┤
+     │    │    ╭───────────────────── NC_050034.1 Sciurus griseus (Western gray squirrel)
+     │    ╰ 96 ┤
+     │         ╰───────────────────── MT211954.1 Sciurus aberti (Tassel-eared squirrel)
+─ 95 ┤
+     │              ╭──────────────── MT211956.1 Sciurus vulgaris (Eurasian red squirrel)
+     │         ╭ 99 ┤
+     │         │    ╰──────────────── KC993007.1 Sciurus vulgaris fuscoater
+     │    ╭ 99 ┤
+     │    │    ╰───────────────────── NC_050033.1 Sciurus lis (Japanese squirrel)
+     ╰ 95 ┤
+          ╰────────────────────────── MW027641.1 Sciurus anomalus (Caucasian squirrel)
+

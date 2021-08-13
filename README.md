@@ -117,4 +117,4 @@ Here is our resultant "Ursidae" (bear family) molecular phylogeny:
      ╰────────────────────────────────────────────────────────────── CM029679.1 Ursus maritimus (Polar bear)
 ```
 
-*Hint: Check out the "out" folder for more examples!*
+*Hint: Check out the "docs" folder for more examples!*
