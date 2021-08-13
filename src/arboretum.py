@@ -1,3 +1,11 @@
+__author__ = "Shane Drabing"
+__license__ = "MIT"
+__email__ = "shane.drabing@gmail.com"
+
+
+# IMPORTS
+
+
 import subprocess
 import sys
 import time

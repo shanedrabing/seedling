@@ -1,3 +1,8 @@
+// author:  Shane Drabing
+// license: MIT
+// email:   shane.drabing@gmail.com
+
+
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>

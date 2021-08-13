@@ -1,3 +1,8 @@
+// author:  Shane Drabing
+// license: MIT
+// email:   shane.drabing@gmail.com
+
+
 #ifndef DNA_ALIGNMENT_H
 #define DNA_ALIGNMENT_H
 
