@@ -1,0 +1,110 @@
+                                                                              ╭ MT499915.1 Felis catus (Domestic cat)
+                                                                        ╭ 100 ┤
+                                                                        │     ╰ KP202275.1 Felis silvestris lybica (Near Eastern wildcat)
+                                                                  ╭ 100 ┤
+                                                                  │     ╰────── NC_028310.1 Felis silvestris (Wild cat)
+                                                            ╭ 100 ┤
+                                                            │     ╰──────────── KP202273.1 Felis silvestris bieti (Chinese desert cat)
+                                                       ╭ 99 ┤
+                                                       │    ╰────────────────── NC_028308.1 Felis margarita (Sand cat)
+                                                  ╭ 97 ┤
+                                                  │    │    ╭────────────────── NC_028309.1 Felis nigripes (Black-footed cat)
+                                                  │    ╰ 97 ┤
+                                                  │         ╰────────────────── NC_028307.1 Felis chaus (Jungle cat)
+                                             ╭ 96 ┤
+                                             │    │                          ╭─ LC375963.1 Prionailurus iriomotensis (Iriomote cat)
+                                             │    │                    ╭ 100 ┤
+                                             │    │                    │     ╰─ LC375961.1 Prionailurus bengalensis euptilurus (Amur leopard cat)
+                                             │    │              ╭ 100 ┤
+                                             │    │              │     ╰─────── MW257210.1 Prionailurus bengalensis (Leopard cat)
+                                             │    │         ╭ 98 ┤
+                                             │    │         │    ╰───────────── KR135742.1 Prionailurus viverrinus (Fishing cat)
+                                             │    │    ╭ 98 ┤
+                                             │    │    │    ╰────────────────── KY682747.1 Prionailurus planiceps (Flat-headed cat)
+                                             │    ╰ 98 ┤
+                                             │         ╰─────────────────────── KR135744.1 Prionailurus rubiginosus (Rusty-spotted cat)
+                                        ╭ 96 ┤
+                                        │    │                               ╭─ MK469962.1 Acinonyx jubatus jubatus
+                                        │    │                         ╭ 100 ┤
+                                        │    │                         │     ╰─ KP202271.1 Acinonyx jubatus (Cheetah)
+                                        │    │                   ╭ 100 ┤
+                                        │    │                   │     ╰─────── MK469961.1 Acinonyx jubatus soemmeringii (Northeast African cheetah)
+                                        │    │              ╭ 97 ┤
+                                        │    │              │    ╰───────────── MH818222.1 Puma concolor (Puma)
+                                        │    │         ╭ 97 ┤
+                                        │    │         │    ╰────────────────── NC_028311.1 Puma yagouaroundi (Jaguarundi)
+                                        │    │    ╭ 97 ┤
+                                        │    │    │    ╰─────────────────────── NC_028316.1 Leptailurus serval (Serval)
+                                        │    ╰ 96 ┤
+                                        │         ╰──────────────────────────── MH978908.1 Otocolobus manul (Pallas's cat)
+                                   ╭ 96 ┤
+                                   │    │    ╭───────────────────────────────── KX265095.1 Catopuma badia (Bay cat)
+                                   │    ╰ 97 ┤
+                                   │         ╰───────────────────────────────── KX224524.1 Catopuma temminckii (Asiatic golden cat)
+                              ╭ 96 ┤
+                              │    │              ╭──────────────────────────── MH706704.1 Lynx lynx (Eurasian lynx)
+                              │    │         ╭ 99 ┤
+                              │    │         │    ╰──────────────────────────── CM017348.2 Lynx canadensis (Canada lynx)
+                              │    │    ╭ 98 ┤
+                              │    │    │    ╰───────────────────────────────── KX911412.1 Lynx pardinus (Spanish lynx)
+                              │    ╰ 97 ┤
+                              │         ╰────────────────────────────────────── KP202285.1 Lynx rufus (Bobcat)
+                         ╭ 96 ┤
+                         │    │                   ╭──────────────────────────── NC_028318.1 Leopardus wiedii (Margay)
+                         │    │              ╭ 99 ┤
+                         │    │              │    ╰──────────────────────────── MW257208.1 Leopardus pardalis (Ocelot)
+                         │    │         ╭ 98 ┤
+                         │    │         │    ╰───────────────────────────────── NC_028322.1 Leopardus jacobita (Andean mountain cat)
+                         │    │    ╭ 97 ┤
+                         │    │    │    ╰────────────────────────────────────── NC_028314.1 Leopardus colocolo (Colocolo)
+                         │    ╰ 97 ┤
+                         │         │         ╭───────────────────────────────── NC_028321.1 Leopardus guigna (Kodkod)
+                         │         │    ╭ 99 ┤
+                         │         │    │    ╰───────────────────────────────── NC_028320.1 Leopardus geoffroyi (Geoffroy's cat)
+                         │         ╰ 98 ┤
+                         │              ╰────────────────────────────────────── NC_028317.1 Leopardus tigrinus (Little spotted cat)
+                    ╭ 96 ┤
+                    │    ╰───────────────────────────────────────────────────── MW257207.1 Pardofelis marmorata (Marbled cat)
+               ╭ 96 ┤
+               │    │    ╭───────────────────────────────────────────────────── NC_028306.1 Caracal caracal (Caracal)
+               │    ╰ 97 ┤
+               │         ╰───────────────────────────────────────────────────── NC_028299.1 Profelis aurata (African golden cat)
+          ╭ 95 ┤
+          │    │                                        ╭────────────────────── KX655614.1 Panthera pardus orientalis (Amur leopard)
+          │    │                                  ╭ 100 ┤
+          │    │                                  │     ╰────────────────────── KJ866876.1 Panthera pardus japonensis
+          │    │                             ╭ 99 ┤
+          │    │                             │    ╰──────────────────────────── MK043027.1 Panthera pardus (Leopard)
+          │    │                        ╭ 98 ┤
+          │    │                        │    │    ╭──────────────────────────── NC_014770.1 Panthera tigris amoyensis (Amoy tiger)
+          │    │                        │    ╰ 99 ┤
+          │    │                        │         ╰──────────────────────────── KF907306.1 Panthera leo leo
+          │    │                   ╭ 97 ┤
+          │    │                   │    │          ╭─────────────────────────── MW257216.1 Panthera leo (Lion)
+          │    │                   │    │    ╭ 100 ┤
+          │    │                   │    │    │     ╰─────────────────────────── KU234271.1 Panthera leo persica (Asiatic lion)
+          │    │                   │    ╰ 99 ┤
+          │    │                   │         ╰───────────────────────────────── KX258452.1 Panthera spelaea (Eurasian cave lion)
+          │    │              ╭ 97 ┤
+          │    │              │    ╰─────────────────────────────────────────── KP202269.1 Panthera uncia (Snow leopard)
+          │    │         ╭ 97 ┤
+          │    │         │    ╰──────────────────────────────────────────────── KP202264.1 Panthera onca (Jaguar)
+          │    │    ╭ 96 ┤
+          │    │    │    │                       ╭───────────────────────────── MN624080.1 Panthera tigris altaica (Amur tiger)
+          │    │    │    │                 ╭ 100 ┤
+          │    │    │    │                 │     ╰───────────────────────────── JF357971.1 Panthera tigris corbetti (Indochinese tiger)
+          │    │    │    │           ╭ 100 ┤
+          │    │    │    │           │     ╰─────────────────────────────────── KF892541.1 Panthera tigris tigris (Bengal tiger)
+          │    │    │    │     ╭ 100 ┤
+          │    │    │    │     │     ╰───────────────────────────────────────── JF357970.1 Panthera tigris sumatrae (Sumatran tiger)
+          │    │    │    ╰ 100 ┤
+          │    │    │          ╰─────────────────────────────────────────────── KP202268.1 Panthera tigris (Tiger)
+          │    ╰ 95 ┤
+          │         ╰────────────────────────────────────────────────────────── KU133958.1 Neofelis nebulosa (Clouded leopard)
+     ╭ 92 ┤
+     │    ╰──────────────────────────────────────────────────────────────────── MF871700.1 Smilodon populator (Greater saber-toothed cat)
+─ 92 ┤
+     │     ╭─────────────────────────────────────────────────────────────────── MK469963.1 Acinonyx jubatus venaticus (Asiatic cheetah)
+     ╰ 100 ┤
+           ╰─────────────────────────────────────────────────────────────────── MF871703.1 Homotherium latidens (European saber-tooth cat)
+

@@ -1,0 +1,106 @@
+V1,V2,p
+"MW209725.1 Mus spretus (Western wild mouse)","MT937073.1 Mus musculus (House mouse)",0.978505
+"MW209725.1 Mus spretus (Western wild mouse)","NC_049117.1 Mus baoulei (Baoule's mouse)",0.945594
+"MW209725.1 Mus spretus (Western wild mouse)","MK166027.1 Mus caroli (Ryukyu mouse)",0.954517
+"MW209725.1 Mus spretus (Western wild mouse)","NC_036680.1 Mus pahari (Shrew mouse)",0.945588
+"MW209725.1 Mus spretus (Western wild mouse)","KY018920.1 Mus terricolor (Earth-colored mouse)",0.956888
+"MW209725.1 Mus spretus (Western wild mouse)","NC_030342.1 Mus famulus (Servant mouse)",0.955763
+"MW209725.1 Mus spretus (Western wild mouse)","CM004189.1 Mus musculus domesticus (Western European house mouse)",0.978816
+"MW209725.1 Mus spretus (Western wild mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.978349
+"MW209725.1 Mus spretus (Western wild mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.979595
+"MW209725.1 Mus spretus (Western wild mouse)","KP877620.1 Mus musculus helgolandicus",0.979751
+"MW209725.1 Mus spretus (Western wild mouse)","NC_025287.1 Mus fragilicauda",0.960592
+"MW209725.1 Mus spretus (Western wild mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.953052
+"MW209725.1 Mus spretus (Western wild mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.953547
+"MW209725.1 Mus spretus (Western wild mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.97866
+"MT937073.1 Mus musculus (House mouse)","NC_049117.1 Mus baoulei (Baoule's mouse)",0.9492
+"MT937073.1 Mus musculus (House mouse)","MK166027.1 Mus caroli (Ryukyu mouse)",0.954517
+"MT937073.1 Mus musculus (House mouse)","NC_036680.1 Mus pahari (Shrew mouse)",0.949641
+"MT937073.1 Mus musculus (House mouse)","KY018920.1 Mus terricolor (Earth-colored mouse)",0.95642
+"MT937073.1 Mus musculus (House mouse)","NC_030342.1 Mus famulus (Servant mouse)",0.956542
+"MT937073.1 Mus musculus (House mouse)","CM004189.1 Mus musculus domesticus (Western European house mouse)",0.999688
+"MT937073.1 Mus musculus (House mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.992991
+"MT937073.1 Mus musculus (House mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.993614
+"MT937073.1 Mus musculus (House mouse)","KP877620.1 Mus musculus helgolandicus",0.998131
+"MT937073.1 Mus musculus (House mouse)","NC_025287.1 Mus fragilicauda",0.962305
+"MT937073.1 Mus musculus (House mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.95759
+"MT937073.1 Mus musculus (House mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.958883
+"MT937073.1 Mus musculus (House mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.992368
+"NC_049117.1 Mus baoulei (Baoule's mouse)","MK166027.1 Mus caroli (Ryukyu mouse)",0.952179
+"NC_049117.1 Mus baoulei (Baoule's mouse)","NC_036680.1 Mus pahari (Shrew mouse)",0.951552
+"NC_049117.1 Mus baoulei (Baoule's mouse)","KY018920.1 Mus terricolor (Earth-colored mouse)",0.949044
+"NC_049117.1 Mus baoulei (Baoule's mouse)","NC_030342.1 Mus famulus (Servant mouse)",0.950768
+"NC_049117.1 Mus baoulei (Baoule's mouse)","CM004189.1 Mus musculus domesticus (Western European house mouse)",0.949514
+"NC_049117.1 Mus baoulei (Baoule's mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.9492
+"NC_049117.1 Mus baoulei (Baoule's mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.949044
+"NC_049117.1 Mus baoulei (Baoule's mouse)","KP877620.1 Mus musculus helgolandicus",0.949357
+"NC_049117.1 Mus baoulei (Baoule's mouse)","NC_025287.1 Mus fragilicauda",0.948416
+"NC_049117.1 Mus baoulei (Baoule's mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.95265
+"NC_049117.1 Mus baoulei (Baoule's mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.954175
+"NC_049117.1 Mus baoulei (Baoule's mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.949671
+"MK166027.1 Mus caroli (Ryukyu mouse)","NC_036680.1 Mus pahari (Shrew mouse)",0.947926
+"MK166027.1 Mus caroli (Ryukyu mouse)","KY018920.1 Mus terricolor (Earth-colored mouse)",0.952827
+"MK166027.1 Mus caroli (Ryukyu mouse)","NC_030342.1 Mus famulus (Servant mouse)",0.96094
+"MK166027.1 Mus caroli (Ryukyu mouse)","CM004189.1 Mus musculus domesticus (Western European house mouse)",0.954829
+"MK166027.1 Mus caroli (Ryukyu mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.956386
+"MK166027.1 Mus caroli (Ryukyu mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.953583
+"MK166027.1 Mus caroli (Ryukyu mouse)","KP877620.1 Mus musculus helgolandicus",0.953894
+"MK166027.1 Mus caroli (Ryukyu mouse)","NC_025287.1 Mus fragilicauda",0.954984
+"MK166027.1 Mus caroli (Ryukyu mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.96338
+"MK166027.1 Mus caroli (Ryukyu mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.963277
+"MK166027.1 Mus caroli (Ryukyu mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.957321
+"NC_036680.1 Mus pahari (Shrew mouse)","KY018920.1 Mus terricolor (Earth-colored mouse)",0.947048
+"NC_036680.1 Mus pahari (Shrew mouse)","NC_030342.1 Mus famulus (Servant mouse)",0.946523
+"NC_036680.1 Mus pahari (Shrew mouse)","CM004189.1 Mus musculus domesticus (Western European house mouse)",0.949953
+"NC_036680.1 Mus pahari (Shrew mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.948706
+"NC_036680.1 Mus pahari (Shrew mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.949174
+"NC_036680.1 Mus pahari (Shrew mouse)","KP877620.1 Mus musculus helgolandicus",0.949953
+"NC_036680.1 Mus pahari (Shrew mouse)","NC_025287.1 Mus fragilicauda",0.949797
+"NC_036680.1 Mus pahari (Shrew mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.9482
+"NC_036680.1 Mus pahari (Shrew mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.948525
+"NC_036680.1 Mus pahari (Shrew mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.949018
+"KY018920.1 Mus terricolor (Earth-colored mouse)","NC_030342.1 Mus famulus (Servant mouse)",0.954702
+"KY018920.1 Mus terricolor (Earth-colored mouse)","CM004189.1 Mus musculus domesticus (Western European house mouse)",0.956732
+"KY018920.1 Mus terricolor (Earth-colored mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.955795
+"KY018920.1 Mus terricolor (Earth-colored mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.955951
+"KY018920.1 Mus terricolor (Earth-colored mouse)","KP877620.1 Mus musculus helgolandicus",0.956107
+"KY018920.1 Mus terricolor (Earth-colored mouse)","NC_025287.1 Mus fragilicauda",0.9597
+"KY018920.1 Mus terricolor (Earth-colored mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.951643
+"KY018920.1 Mus terricolor (Earth-colored mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.953861
+"KY018920.1 Mus terricolor (Earth-colored mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.956576
+"NC_030342.1 Mus famulus (Servant mouse)","CM004189.1 Mus musculus domesticus (Western European house mouse)",0.956854
+"NC_030342.1 Mus famulus (Servant mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.955763
+"NC_030342.1 Mus famulus (Servant mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.956698
+"NC_030342.1 Mus famulus (Servant mouse)","KP877620.1 Mus musculus helgolandicus",0.956231
+"NC_030342.1 Mus famulus (Servant mouse)","NC_025287.1 Mus fragilicauda",0.958567
+"NC_030342.1 Mus famulus (Servant mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.98529
+"NC_030342.1 Mus famulus (Servant mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.966573
+"NC_030342.1 Mus famulus (Servant mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.957165
+"CM004189.1 Mus musculus domesticus (Western European house mouse)","CM004187.1 Mus musculus musculus (Eastern European house mouse)",0.993302
+"CM004189.1 Mus musculus domesticus (Western European house mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.993925
+"CM004189.1 Mus musculus domesticus (Western European house mouse)","KP877620.1 Mus musculus helgolandicus",0.998442
+"CM004189.1 Mus musculus domesticus (Western European house mouse)","NC_025287.1 Mus fragilicauda",0.962617
+"CM004189.1 Mus musculus domesticus (Western European house mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.957277
+"CM004189.1 Mus musculus domesticus (Western European house mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.959196
+"CM004189.1 Mus musculus domesticus (Western European house mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.992679
+"CM004187.1 Mus musculus musculus (Eastern European house mouse)","CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)",0.993458
+"CM004187.1 Mus musculus musculus (Eastern European house mouse)","KP877620.1 Mus musculus helgolandicus",0.992368
+"CM004187.1 Mus musculus musculus (Eastern European house mouse)","NC_025287.1 Mus fragilicauda",0.960903
+"CM004187.1 Mus musculus musculus (Eastern European house mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.956808
+"CM004187.1 Mus musculus musculus (Eastern European house mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.95904
+"CM004187.1 Mus musculus musculus (Eastern European house mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.998442
+"CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)","KP877620.1 Mus musculus helgolandicus",0.993614
+"CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)","NC_025287.1 Mus fragilicauda",0.962461
+"CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)","NC_025270.1 Mus cookii (Cook's mouse)",0.956182
+"CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.957313
+"CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.993458
+"KP877620.1 Mus musculus helgolandicus","NC_025287.1 Mus fragilicauda",0.962773
+"KP877620.1 Mus musculus helgolandicus","NC_025270.1 Mus cookii (Cook's mouse)",0.957121
+"KP877620.1 Mus musculus helgolandicus","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.958883
+"KP877620.1 Mus musculus helgolandicus","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.992056
+"NC_025287.1 Mus fragilicauda","NC_025270.1 Mus cookii (Cook's mouse)",0.955086
+"NC_025287.1 Mus fragilicauda","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.959667
+"NC_025287.1 Mus fragilicauda","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.960592
+"NC_025270.1 Mus cookii (Cook's mouse)","NC_025269.1 Mus cervicolor (Fawn-colored mouse)",0.970653
+"NC_025270.1 Mus cookii (Cook's mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.957746
+"NC_025269.1 Mus cervicolor (Fawn-colored mouse)","EF108345.1 Mus musculus molossinus (Japanese wild mouse)",0.959196

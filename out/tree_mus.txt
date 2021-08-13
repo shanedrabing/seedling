@@ -1,0 +1,30 @@
+                                               ╭ MT937073.1 Mus musculus (House mouse)
+                                         ╭ 100 ┤
+                                         │     ╰ CM004189.1 Mus musculus domesticus (Western European house mouse)
+                                   ╭ 100 ┤
+                                   │     ╰────── KP877620.1 Mus musculus helgolandicus
+                              ╭ 99 ┤
+                              │    ╰──────────── CM004181.1 Mus musculus castaneus (Southeastern Asian house mouse)
+                         ╭ 99 ┤
+                         │    │     ╭─────────── EF108345.1 Mus musculus molossinus (Japanese wild mouse)
+                         │    ╰ 100 ┤
+                         │          ╰─────────── CM004187.1 Mus musculus musculus (Eastern European house mouse)
+                    ╭ 98 ┤
+                    │    ╰────────────────────── MW209725.1 Mus spretus (Western wild mouse)
+               ╭ 96 ┤
+               │    ╰─────────────────────────── NC_025287.1 Mus fragilicauda
+          ╭ 96 ┤
+          │    ╰──────────────────────────────── KY018920.1 Mus terricolor (Earth-colored mouse)
+     ╭ 96 ┤
+     │    │              ╭────────────────────── NC_030342.1 Mus famulus (Servant mouse)
+     │    │         ╭ 99 ┤
+     │    │         │    ╰────────────────────── NC_025270.1 Mus cookii (Cook's mouse)
+     │    │    ╭ 97 ┤
+     │    │    │    ╰─────────────────────────── NC_025269.1 Mus cervicolor (Fawn-colored mouse)
+     │    ╰ 96 ┤
+     │         ╰──────────────────────────────── MK166027.1 Mus caroli (Ryukyu mouse)
+─ 95 ┤
+     │    ╭───────────────────────────────────── NC_049117.1 Mus baoulei (Baoule's mouse)
+     ╰ 95 ┤
+          ╰───────────────────────────────────── NC_036680.1 Mus pahari (Shrew mouse)
+

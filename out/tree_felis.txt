@@ -1,0 +1,14 @@
+                            ╭ MT499915.1 Felis catus (Domestic cat)
+                      ╭ 100 ┤
+                      │     ╰ KP202275.1 Felis silvestris lybica (Near Eastern wildcat)
+                ╭ 100 ┤
+                │     ╰────── NC_028310.1 Felis silvestris (Wild cat)
+          ╭ 100 ┤
+          │     ╰──────────── KP202273.1 Felis silvestris bieti (Chinese desert cat)
+     ╭ 99 ┤
+     │    ╰────────────────── NC_028308.1 Felis margarita (Sand cat)
+─ 97 ┤
+     │    ╭────────────────── NC_028309.1 Felis nigripes (Black-footed cat)
+     ╰ 97 ┤
+          ╰────────────────── NC_028307.1 Felis chaus (Jungle cat)
+

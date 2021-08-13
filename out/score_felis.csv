@@ -1,0 +1,22 @@
+V1,V2,p
+"MT499915.1 Felis catus (Domestic cat)","NC_028310.1 Felis silvestris (Wild cat)",0.996113
+"MT499915.1 Felis catus (Domestic cat)","NC_028309.1 Felis nigripes (Black-footed cat)",0.971238
+"MT499915.1 Felis catus (Domestic cat)","NC_028308.1 Felis margarita (Sand cat)",0.989544
+"MT499915.1 Felis catus (Domestic cat)","NC_028307.1 Felis chaus (Jungle cat)",0.971238
+"MT499915.1 Felis catus (Domestic cat)","KP202275.1 Felis silvestris lybica (Near Eastern wildcat)",0.999067
+"MT499915.1 Felis catus (Domestic cat)","KP202273.1 Felis silvestris bieti (Chinese desert cat)",0.995647
+"NC_028310.1 Felis silvestris (Wild cat)","NC_028309.1 Felis nigripes (Black-footed cat)",0.971393
+"NC_028310.1 Felis silvestris (Wild cat)","NC_028308.1 Felis margarita (Sand cat)",0.989388
+"NC_028310.1 Felis silvestris (Wild cat)","NC_028307.1 Felis chaus (Jungle cat)",0.970771
+"NC_028310.1 Felis silvestris (Wild cat)","KP202275.1 Felis silvestris lybica (Near Eastern wildcat)",0.997046
+"NC_028310.1 Felis silvestris (Wild cat)","KP202273.1 Felis silvestris bieti (Chinese desert cat)",0.996113
+"NC_028309.1 Felis nigripes (Black-footed cat)","NC_028308.1 Felis margarita (Sand cat)",0.969569
+"NC_028309.1 Felis nigripes (Black-footed cat)","NC_028307.1 Felis chaus (Jungle cat)",0.973284
+"NC_028309.1 Felis nigripes (Black-footed cat)","KP202275.1 Felis silvestris lybica (Near Eastern wildcat)",0.971549
+"NC_028309.1 Felis nigripes (Black-footed cat)","KP202273.1 Felis silvestris bieti (Chinese desert cat)",0.971859
+"NC_028308.1 Felis margarita (Sand cat)","NC_028307.1 Felis chaus (Jungle cat)",0.969881
+"NC_028308.1 Felis margarita (Sand cat)","KP202275.1 Felis silvestris lybica (Near Eastern wildcat)",0.990481
+"NC_028308.1 Felis margarita (Sand cat)","KP202273.1 Felis silvestris bieti (Chinese desert cat)",0.989544
+"NC_028307.1 Felis chaus (Jungle cat)","KP202275.1 Felis silvestris lybica (Near Eastern wildcat)",0.970927
+"NC_028307.1 Felis chaus (Jungle cat)","KP202273.1 Felis silvestris bieti (Chinese desert cat)",0.971238
+"KP202275.1 Felis silvestris lybica (Near Eastern wildcat)","KP202273.1 Felis silvestris bieti (Chinese desert cat)",0.99658

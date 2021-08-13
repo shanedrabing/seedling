@@ -1,0 +1,24 @@
+                                               ╭ MN122879.1 Mustela putorius (European polecat)
+                                         ╭ 100 ┤
+                                         │     ╰ KT693383.1 Mustela putorius furo (Domestic ferret)
+                                   ╭ 100 ┤
+                                   │     ╰────── NC_056132.1 Mustela lutreola (European mink)
+                              ╭ 99 ┤
+                              │    ╰──────────── NC_024942.1 Mustela nigripes (Black-footed ferret)
+                         ╭ 99 ┤
+                         │    ╰───────────────── NC_028013.1 Mustela eversmannii (Steppe polecat)
+                    ╭ 99 ┤
+                    │    ╰────────────────────── MW625812.1 Mustela sibirica (Siberian weasel)
+               ╭ 98 ┤
+               │    ╰─────────────────────────── NC_034330.1 Mustela itatsi
+          ╭ 97 ┤
+          │    ╰──────────────────────────────── MW257230.1 Mustela erminea (Ermine)
+     ╭ 96 ┤
+     │    │    ╭──────────────────────────────── NC_021751.1 Mustela altaica (Mountain weasel)
+     │    ╰ 97 ┤
+     │         ╰──────────────────────────────── CM032670.1 Mustela nivalis (Least weasel)
+─ 95 ┤
+     │    ╭───────────────────────────────────── NC_023210.1 Mustela kathiah (Yellow-bellied weasel)
+     ╰ 96 ┤
+          ╰───────────────────────────────────── NC_020640.1 Mustela frenata (Long-tailed weasel)
+

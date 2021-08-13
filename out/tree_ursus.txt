@@ -1,0 +1,40 @@
+                                                    ╭ MW491933.1 Ursus rossicus (Small cave bear)
+                                              ╭ 100 ┤
+                                              │     ╰ MW491932.1 Ursus kanivetz
+                                        ╭ 100 ┤
+                                        │     ╰────── KX641337.1 Ursus spelaeus (Cave bear)
+                                   ╭ 99 ┤
+                                   │    ╰──────────── KF437625.2 Ursus deningeri (Deninger's bear)
+                              ╭ 99 ┤
+                              │    ╰───────────────── MN311250.1 Ursus ingressus (Gamssulzen cave bear)
+                         ╭ 98 ┤
+                         │    │     ╭──────────────── MW491934.1 Ursus kudarensis kudarensis
+                         │    ╰ 100 ┤
+                         │          ╰──────────────── MH605139.1 Ursus kudarensis (Kudaro cave bear)
+                    ╭ 98 ┤
+                    │    │    ╭────────────────────── MW257206.1 Ursus arctos isabellinus (Himalayan brown bear)
+                    │    ╰ 99 ┤
+                    │         ╰────────────────────── MG066703.1 Ursus arctos pruinosus
+               ╭ 97 ┤
+               │    ╰──────────────────────────────── MW491935.1 Ursus kudarensis praekudarensis (Caucasian cave bear)
+          ╭ 96 ┤
+          │    │                               ╭───── NC_011118.1 Ursus thibetanus thibetanus
+          │    │                         ╭ 100 ┤
+          │    │                         │     ╰───── NC_009331.1 Ursus thibetanus formosanus (Formosan black bear)
+          │    │                   ╭ 100 ┤
+          │    │                   │     │     ╭───── KT964290.1 Ursus thibetanus (Asiatic black bear)
+          │    │                   │     ╰ 100 ┤
+          │    │                   │           ╰───── EF667005.1 Ursus thibetanus ussuricus (Manchurian black bear)
+          │    │              ╭ 99 ┤
+          │    │              │    ╰───────────────── NC_008753.1 Ursus thibetanus mupinensis
+          │    │         ╭ 99 ┤
+          │    │         │    ╰────────────────────── MN935768.1 Ursus thibetanus laniger
+          │    │    ╭ 98 ┤
+          │    │    │    ╰─────────────────────────── AB863014.1 Ursus thibetanus japonicus (Japanese black bear)
+          │    ╰ 97 ┤
+          │         ╰──────────────────────────────── KM257060.1 Ursus americanus (American black bear)
+     ╭ 91 ┤
+     │    ╰────────────────────────────────────────── LC595633.1 Ursus arctos (Brown bear)
+─ 84 ┤
+     ╰─────────────────────────────────────────────── CM029679.1 Ursus maritimus (Polar bear)
+
