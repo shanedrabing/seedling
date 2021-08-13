@@ -55,6 +55,7 @@ def system(name, command, label):
 
 if __name__ == "__main__":
     import argparse
+    import os
     import sys
 
     # where am I?
@@ -69,6 +70,10 @@ if __name__ == "__main__":
     term = args.term.strip()
     name = "_".join(term.lower().split())
 
+    # make relative output directory
+    if not os.path.exists("./out"):
+        os.makedirs("./out")
+
     # run
     tick()
     system(
@@ -76,7 +81,7 @@ if __name__ == "__main__":
         f"python{'3' if not WINDOWS else str()} " +
         f"{here}/../src/ncbi_eutils.py " +
         f"{term} " +
-        f"{here}/../out/mtdna_{name}.fasta",
+        f"./out/mtdna_{name}.fasta",
         "search"
     )
 
@@ -84,16 +89,16 @@ if __name__ == "__main__":
         term,
         f"{here}/../bin/trim_region{'.exe' if WINDOWS else str()} " +
         f"{here}/../data/latrans_cr.fasta " +
-        f"{here}/../out/mtdna_{name}.fasta " +
-        f"{here}/../out/mtdnacr_{name}.fasta ",
+        f"./out/mtdna_{name}.fasta " +
+        f"./out/mtdnacr_{name}.fasta ",
         "prune"
     )
 
     system(
         term,
         f"{here}/../bin/calc_dist{'.exe' if WINDOWS else str()} " +
-        f"{here}/../out/mtdnacr_{name}.fasta " +
-        f"{here}/../out/score_{name}.csv",
+        f"./out/mtdnacr_{name}.fasta " +
+        f"./out/score_{name}.csv",
         "score"
     )
 
@@ -101,7 +106,7 @@ if __name__ == "__main__":
         term,
         f"python{'3' if not WINDOWS else str()} " +
         f"{here}/../src/calc_tree.py " +
-        f"{here}/../out/score_{name}.csv " +
-        f"{here}/../out/tree_{name}.txt",
+        f"./out/score_{name}.csv " +
+        f"./out/tree_{name}.txt",
         "build"
     )
