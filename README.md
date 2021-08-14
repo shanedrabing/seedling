@@ -13,9 +13,9 @@ with a grain of salt, but do have fun with the program!
 Clone this repository to your local machine with git, then install with Python.
 
 ```console
-git clone https://github.com/shanedrabing/seedling.git
-cd seedling
-python setup.py install
+> git clone https://github.com/shanedrabing/seedling.git
+> cd seedling
+> python setup.py install
 ```
 
 You should probably recompile the binaries as well.
@@ -23,28 +23,28 @@ You should probably recompile the binaries as well.
 For Windows:
 
 ```console
-./src/compile.bat
+> ./src/compile.bat
 ```
 
 For *NIX:
 
 ```console
-./src/compile.sh
+> ./src/compile.sh
 ```
 
 ## Getting Started
 
 Run the program with Python.
 
-```txt
-python seedling.py
+```console
+> python seedling.py
 ```
 
 ## Example Usage
 
 This is what the console output looks like:
 
-```txt
+```console
 Please enter taxa searches on any line:
 
 Felis
