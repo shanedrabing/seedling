@@ -8,6 +8,7 @@ __email__ = "shane.drabing@gmail.com"
 
 import csv
 import re
+import time
 import urllib
 import xml.etree.ElementTree
 
@@ -154,6 +155,7 @@ def download_taxa_mtdna(term, filename=None):
 
 
 def eutils(cgi, **options):
+    time.sleep(1 / 4)
     url = FORMAT_EUTILS(cgi)
     return requests.post(url, data=options)
 
