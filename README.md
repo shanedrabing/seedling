@@ -12,19 +12,10 @@ Clone this repository to your local machine with git, then install with Python.
 > python setup.py install
 ```
 
-You should probably recompile the binaries as well.
-
-For Windows:
-
-```console
-> ./src/compile.bat
-```
-
-For *NIX:
-
-```console
-> ./src/compile.sh
-```
+*Hint: `setup.py` will try to compile the binaries for both Windows and \*NIX
+machines. This step assumes you have `g++` installed. If you run into issues,
+either install `g++` or take a look at the compilation scripts in the `src`
+folder.*
 
 ## Getting Started
 
@@ -123,7 +114,7 @@ Here is our resultant "Canis" (dog genus) molecular phylogeny:
      ╰──────────────────────────────────────────────────────────────────── KF661079.1 Canis sp. Belgium/36,000
 ```
 
-*Hint: Check out the "docs" folder for more examples!*
+*Hint: Check out the `docs` folder for more examples!*
 
 ## Warning
 
