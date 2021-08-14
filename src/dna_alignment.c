@@ -10,14 +10,6 @@
 
 #include "dna_alignment.h"
 
-int hamming(const char* x, const char* y) {
-    int i, count;
-    for (i = 0; x[i] != '\0' && y[i] != '\0'; ++i) {
-        count += x[i] != y[i];
-    }
-    return i;
-}
-
 
 int score_identity(char xx, char yy) {
     if (xx == yy) {
@@ -115,77 +107,6 @@ double global_align_score(const char* x, const char* y, double pt_gap) {
 }
 
 
-double local_align_score(const char* x, const char* y) {
-    // declare variables
-    double** mat;
-    char xx, yy;
-    int u, v, u_lt_v, i, j, ii, jj;
-    double best_score;
-    double pt_mod, pt_gap, a, b, c;
-
-    // set pt_gap
-    pt_gap = -2;
-
-    // grab the string lengths
-    u = strlen(x);
-    v = strlen(y);
-
-    // allocate memory
-    mat = (double**)malloc((1 + u) * sizeof(double*));
-    for (i = 0; i <= u; i++) {
-        mat[i] = (double*)malloc((1 + v) * sizeof(double));
-    }
-
-    // initialize matrix values
-    for (i = 0; i <= u; i++) {
-        for (j = 0; j <= v; j++) {
-            mat[i][j] = pt_gap * i;
-        }
-    }
-
-    // for each cell to compute
-    for (i = 0; i < u; i++) {
-        ii = i + 1;
-        xx = x[i];
-        for (j = 0; j < v; j++) {
-            jj = j + 1;
-            yy = y[j];
-
-            // possible scores
-            a = mat[i][j] + (3 * score_identity(xx, yy));
-            b = mat[ii][j] + pt_gap;
-            c = mat[i][jj] + pt_gap;
-
-            // pick the best score, update the matrix
-            mat[ii][jj] = (
-                (a >= b && a >= c) ? a :
-                (b >= c) ? b :
-                (c > 0) ? c : 0
-            );
-        }
-    }
-    
-    // find best score
-    best_score = -INFINITY;
-    for (i = 0; i <= u; i++) {
-        for (j = 0; j <= v; j++) {
-            if (mat[i][j] > best_score) {
-                best_score = mat[i][j];
-            }
-        }
-    }
-
-    // free our matrix memory
-    for (i = 0; i <= u; i++) {
-        free(mat[i]);
-    }
-    free(mat);
-
-    // return score
-    return best_score;
-}
-
-
 const char* local_align_trace(const char* x, const char* y) {
     // declare variables
     double** mat;
@@ -266,21 +187,12 @@ const char* local_align_trace(const char* x, const char* y) {
             (mat[ii][jj] >= mat[i][jj])) {
 
             build[build_len++] = y[jj];
-            // if (x[ii] == y[jj]) {
-            //     printf("%c|%c", x[ii], y[jj]);
-            // } else {
-            //     printf("%c:%c", x[ii], y[jj]);
-            // }
             i = ii;
             j = jj;
         } else if ((i > 0) && (j <= 0) || (mat[ii][j] >= mat[i][jj])) {
-            // uncomment for gaps
-            // build[build_len++] = '-';
-            // printf("%c -", x[ii]);
             i = ii;
         } else if (j > 0) {
             build[build_len++] = y[jj];
-            // printf("- %c", y[jj]);
             j = jj;
         }
     }

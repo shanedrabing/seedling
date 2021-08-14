@@ -1,52 +1,15 @@
-PS C:\seedling-z> python seedling.py
-Please enter taxa searches on any line:
-Canis
-Felis
-                  "Felis" search: 1.797000
-                  "Canis" search: 4.718000
-                   "Felis" prune: 3.953000
-                   "Felis" score: 0.438000
-                   "Felis" build: 0.078000
-                   "Canis" prune: 10.875000
-                   "Canis" score: 3.203000
-                   "Canis" build: 0.110000
-Ursidae
-                "Ursidae" search: 2.656000
-Cetacea
-                "Cetacea" search: 5.156000
-                 "Ursidae" prune: 14.578000
-                 "Ursidae" score: 6.625000
-                 "Ursidae" build: 0.172000
-                 "Cetacea" prune: 39.578000
-                 "Cetacea" score: 54.235000
-                 "Cetacea" build: 1.422000
-exit
-PS C:\seedling-z> 
-PS C:\seedling-z> python seedling.py
+PS C:\seedling> python seedling.py
 
 
 Please enter taxa searches on any line:
 
-Felis
-                  "Felis" search: 1.937000
-Mus
-Rattus
-                 "Rattus" search: Oops!
-                    "Mus" search: 2.750000
-                   "Felis" prune: 3.953000
-                   "Felis" score: 0.422000
-                   "Felis" build: 0.078000
-                     "Mus" prune: 8.172000
-                     "Mus" score: 2.000000
-                     "Mus" build: 0.094000
-Canis
-Ursus
-                  "Ursus" search: Oops!
-                  "Canis" search: 4.625000
-                   "Canis" prune: 10.922000
-                   "Canis" score: 3.312000
-                   "Canis" build: 0.110000
+Carnivora
+              "Carnivora" search: 14.7 sec
+               "Carnivora" prune: 165.0 sec
+               "Carnivora" score: 671.7 sec
+               "Carnivora" build: 64.1 sec
+                "Carnivora" done: 915.4 sec
 exit
 
 
-PS C:\seedling-z>
+PS C:\seedling>
