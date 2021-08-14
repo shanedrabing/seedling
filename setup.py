@@ -27,9 +27,9 @@ class Install(install):
     def run(self):
         install.run(self)
         if WINDOWS:
-            subprocess.run(["./src/compile.bat"], cwd=HERE)
+            subprocess.run(["call", "./src/compile.bat"], cwd=HERE)
         else:
-            subprocess.run(["./src/compile.sh"], cwd=HERE)
+            subprocess.run(["sh", "./src/compile.sh"], cwd=HERE)
 
 
 # SCRIPT
