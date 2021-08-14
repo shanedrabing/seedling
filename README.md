@@ -12,10 +12,24 @@ with a grain of salt, but do have fun with the program!
 
 Clone this repository to your local machine with git, then install with Python.
 
-```bash
+```console
 git clone https://github.com/shanedrabing/seedling.git
-cd pyrat
+cd seedling
 python setup.py install
+```
+
+You should probably recompile the binaries as well.
+
+For Windows:
+
+```console
+./src/compile.bat
+```
+
+For *NIX:
+
+```console
+./src/compile.sh
 ```
 
 ## Getting Started
@@ -28,31 +42,23 @@ python seedling.py
 
 ## Example Usage
 
-This is what the terminal output looks like:
+This is what the console output looks like:
 
 ```txt
 Please enter taxa searches on any line:
 
-Canis
 Felis
-                  "Felis" search: 1.797000
-                  "Canis" search: 4.718000
-                   "Felis" prune: 3.953000
-                   "Felis" score: 0.438000
-                   "Felis" build: 0.078000
-                   "Canis" prune: 10.875000
-                   "Canis" score: 3.203000
-                   "Canis" build: 0.110000
-Ursidae
-                "Ursidae" search: 2.656000
-Cetacea
-                "Cetacea" search: 5.156000
-                 "Ursidae" prune: 14.578000
-                 "Ursidae" score: 6.625000
-                 "Ursidae" build: 0.172000
-                 "Cetacea" prune: 39.578000
-                 "Cetacea" score: 54.235000
-                 "Cetacea" build: 1.422000
+                  "Felis" search: 2.8 sec
+Canis
+                   "Felis" prune: 6.7 sec
+                  "Canis" search: 5.3 sec
+                   "Felis" score: 0.7 sec
+                   "Felis" build: 0.1 sec
+                    "Felis" done: 10.3 sec
+                   "Canis" prune: 11.5 sec
+                   "Canis" score: 3.5 sec
+                   "Canis" build: 0.1 sec
+                    "Canis" done: 20.4 sec
 exit
 ```
 
@@ -61,60 +67,66 @@ believe the network adapter doesn't like being hounded by multiple processes.*
 
 ## Example Output
 
-Here is our resultant "Ursidae" (bear family) molecular phylogeny:
+Here is our resultant "Felis" (cat genus) molecular phylogeny:
 
 ```txt
-                                                                   ╭ MW491933.1 Ursus rossicus (Small cave bear)
+                            ╭ MT499915.1 Felis catus (Domestic cat)
+                      ╭ 100 ┤
+                      │     ╰ KP202275.1 Felis silvestris lybica (Near Eastern wildcat)
+                ╭ 100 ┤
+                │     ╰────── NC_028310.1 Felis silvestris (Wild cat)
+          ╭ 100 ┤
+          │     ╰──────────── KP202273.1 Felis silvestris bieti (Chinese desert cat)
+     ╭ 99 ┤
+     │    ╰────────────────── NC_028308.1 Felis margarita (Sand cat)
+─ 97 ┤
+     │    ╭────────────────── NC_028309.1 Felis nigripes (Black-footed cat)
+     ╰ 97 ┤
+          ╰────────────────── NC_028307.1 Felis chaus (Jungle cat)
+```
+
+Here is our resultant "Canis" (dog genus) molecular phylogeny:
+
+```txt
+                                                                         ╭ MK948871.1 Canis lupus orion (Greenland wolf)
+                                                                   ╭ 100 ┤
+                                                                   │     ╰ MH746950.1 Canis lupus lupus (Eurasian wolf)
                                                              ╭ 100 ┤
-                                                             │     ╰ MW491932.1 Ursus kanivetz
+                                                             │     ╰────── MZ042325.1 Canis lupus familiaris (Dog)
                                                        ╭ 100 ┤
-                                                       │     ╰────── KX641337.1 Ursus spelaeus (Cave bear)
-                                                  ╭ 99 ┤
-                                                  │    ╰──────────── KF437625.2 Ursus deningeri (Deninger's bear)
-                                             ╭ 99 ┤
-                                             │    ╰───────────────── MN311250.1 Ursus ingressus (Gamssulzen cave bear)
-                                        ╭ 98 ┤
-                                        │    │     ╭──────────────── MW491934.1 Ursus kudarensis kudarensis
-                                        │    ╰ 100 ┤
-                                        │          ╰──────────────── MH605139.1 Ursus kudarensis (Kudaro cave bear)
-                                   ╭ 98 ┤
-                                   │    │    ╭────────────────────── MW257206.1 Ursus arctos isabellinus (Himalayan brown bear)
-                                   │    ╰ 99 ┤
-                                   │         ╰────────────────────── MG066703.1 Ursus arctos pruinosus
-                              ╭ 97 ┤
-                              │    ╰──────────────────────────────── MW491935.1 Ursus kudarensis praekudarensis (Caucasian cave bear)
-                         ╭ 96 ┤
-                         │    │                                    ╭ NC_011118.1 Ursus thibetanus thibetanus
-                         │    │                              ╭ 100 ┤
-                         │    │                              │     ╰ NC_009331.1 Ursus thibetanus formosanus (Formosan black bear)
-                         │    │                        ╭ 100 ┤
-                         │    │                        │     │     ╭ KT964290.1 Ursus thibetanus (Asiatic black bear)
-                         │    │                        │     ╰ 100 ┤
-                         │    │                        │           ╰ EF667005.1 Ursus thibetanus ussuricus (Manchurian black bear)
-                         │    │                   ╭ 99 ┤
-                         │    │                   │    ╰──────────── NC_008753.1 Ursus thibetanus mupinensis
-                         │    │              ╭ 99 ┤
-                         │    │              │    ╰───────────────── MN935768.1 Ursus thibetanus laniger
-                         │    │         ╭ 98 ┤
-                         │    │         │    ╰────────────────────── AB863014.1 Ursus thibetanus japonicus (Japanese black bear)
-                         │    │    ╭ 97 ┤
-                         │    │    │    ╰─────────────────────────── KM257060.1 Ursus americanus (American black bear)
-                         │    ╰ 97 ┤
-                         │         ╰──────────────────────────────── FM177765.1 Helarctos malayanus (Malayan sun bear)
-                    ╭ 96 ┤
-                    │    ╰────────────────────────────────────────── MH931229.1 Melursus ursinus (Sloth bear)
-               ╭ 94 ┤
-               │    │         ╭───────────────────────────────────── NC_030174.1 Arctotherium sp.
-               │    │    ╭ 97 ┤
-               │    │    │    ╰───────────────────────────────────── MW556430.1 Tremarctos ornatus (Spectacled bear)
-               │    ╰ 96 ┤
-               │         ╰────────────────────────────────────────── NC_011116.1 Arctodus simus (Giant short-faced bear)
-          ╭ 93 ┤
-          │    ╰──────────────────────────────────────────────────── MH102403.1 Ailuropoda melanoleuca (Giant panda)
-     ╭ 91 ┤
-     │    ╰───────────────────────────────────────────────────────── LC595633.1 Ursus arctos (Brown bear)
-─ 84 ┤
-     ╰────────────────────────────────────────────────────────────── CM029679.1 Ursus maritimus (Polar bear)
+                                                       │     ╰──────────── KC896375.1 Canis lupus campestris (Steppe wolf)
+                                                 ╭ 100 ┤
+                                                 │     ╰────────────────── KC461238.1 Canis lupus desertorum
+                                           ╭ 100 ┤
+                                           │     ╰──────────────────────── MZ042323.1 Canis lupus baileyi (Mexican gray wolf)
+                                     ╭ 100 ┤
+                                     │     ╰────────────────────────────── GQ374438.1 Canis lupus chanco (Mongolian wolf)
+                               ╭ 100 ┤
+                               │     │     ╭────────────────────────────── LC520095.1 Canis lupus hodophilax (Japanese wolf)
+                               │     ╰ 100 ┤
+                               │           ╰────────────────────────────── KF661092.1 Canis sp. Russia/33,500
+                         ╭ 100 ┤
+                         │     ╰────────────────────────────────────────── MH035676.1 Canis lupus dingo (Dingo)
+                    ╭ 99 ┤
+                    │    │    ╭─────────────────────────────────────────── NC_027956.1 Canis lupaster (African golden wolf)
+                    │    ╰ 99 ┤
+                    │         ╰─────────────────────────────────────────── KF573616.1 Canis lupus laniger (Tibetan wolf)
+               ╭ 98 ┤
+               │    │                      ╭────────────────────────────── MZ367921.1 Canis rufus (Red wolf)
+               │    │                ╭ 100 ┤
+               │    │                │     ╰────────────────────────────── MZ042357.1 Canis latrans (Coyote)
+               │    │          ╭ 100 ┤
+               │    │          │     ╰──────────────────────────────────── MZ367914.1 Canis lupus lycaon (Eastern Canadian wolf)
+               │    │    ╭ 100 ┤
+               │    │    │     ╰────────────────────────────────────────── MZ042364.1 Canis lupus (Gray wolf)
+               │    ╰ 99 ┤
+               │         ╰──────────────────────────────────────────────── KT448274.1 Canis aureus (Golden jackal)
+          ╭ 97 ┤
+          │    ╰────────────────────────────────────────────────────────── KT448280.1 Canis mesomelas (Black-backed jackal)
+     ╭ 94 ┤
+     │    ╰─────────────────────────────────────────────────────────────── KT448271.1 Canis adustus (Side-striped jackal)
+─ 92 ┤
+     ╰──────────────────────────────────────────────────────────────────── KF661079.1 Canis sp. Belgium/36,000
 ```
 
 *Hint: Check out the "docs" folder for more examples!*
