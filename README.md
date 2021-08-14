@@ -2,12 +2,6 @@
 
 Quick and easy molecular phylogenies.
 
-## Warning
-
-The method used for tree-construction is purely my effort, so it should be
-considered extremely inaccurate. Take the biological relevance of these trees
-with a grain of salt, but do have fun with the program!
-
 ## Installation
 
 Clone this repository to your local machine with git, then install with Python.
@@ -130,3 +124,25 @@ Here is our resultant "Canis" (dog genus) molecular phylogeny:
 ```
 
 *Hint: Check out the "docs" folder for more examples!*
+
+## Warning
+
+The method used for tree-construction is purely my effort, so it should be
+considered extremely inaccurate. Take the biological relevance of these trees
+with a grain of salt, but do have fun with the program!
+
+It should be noted that this program only works on organisms with mitochondria,
+as it will search for complete mitochondrial DNA (mtDNA) genomes. Once it has
+done so, it trims the genome down to the mtDNA control region (CR). I use the
+mtDNA CR sequence from *Canis latrans* as the target for trimming, so the
+closer the evolutionary relationship between your search criteria and dogs, the
+more accurate the trimmed sequences will be.
+
+## To-Do
+
+Some things I'm thinking about:
+
+- Switch the method of trimming from Smith-Waterman to word methods for speed.
+- Switch the method of scoring from Needleman-Wunsch (transition-transversion
+  cost) to word methods as well.
+- Scoring and building trees is currently pairwise, need to get that cost down.
