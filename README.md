@@ -1,6 +1,6 @@
 # Seedling
 
-Quick and easy molecular phylogenies. 
+Quick and easy molecular phylogenies.
 
 ## Warning
 

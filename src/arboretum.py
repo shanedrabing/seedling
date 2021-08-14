@@ -33,7 +33,7 @@ def tick(message=str(), pad=32):
     if start is None:
         return
     if message:
-        print(message.rjust(pad) + ": %.6f" % (TIME - start))
+        print(message.rjust(pad) + ": %.1f sec" % (TIME - start))
     else:
         print("%.6f" % (TIME - start))
 
@@ -76,6 +76,8 @@ if __name__ == "__main__":
 
     # run
     tick()
+    start = time.monotonic()
+    
     system(
         term,
         f"python{'3' if not WINDOWS else str()} " +
@@ -110,3 +112,6 @@ if __name__ == "__main__":
         f"./out/tree_{name}.txt",
         "build"
     )
+
+    end = time.monotonic()
+    print(f'"{term}" done'.rjust(32) + ": %.1f sec" % (end - start))
