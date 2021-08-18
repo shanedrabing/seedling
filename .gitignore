@@ -130,3 +130,5 @@ dmypy.json
 
 # Custom
 out/*
+src/arboretum_v2.py
+src/metatree.py
