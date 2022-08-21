@@ -18,9 +18,7 @@ import requests
 # CONSTANTS
 
 
-FORMAT_EUTILS = (
-    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/{}.cgi"
-).format
+FORMAT_EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/{}.cgi".format
 
 FORMAT_MITOCHONDRIA = (
     '({}[Organism]) AND ' +
