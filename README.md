@@ -2,6 +2,22 @@
 
 Quick and easy molecular phylogenies.
 
+```txt
+                            ╭ MT499915.1 Felis catus (Domestic cat)
+                      ╭ 100 ┤
+                      │     ╰ KP202275.1 Felis silvestris lybica (Near Eastern wildcat)
+                ╭ 100 ┤
+                │     ╰────── NC_028310.1 Felis silvestris (Wild cat)
+          ╭ 100 ┤
+          │     ╰──────────── KP202273.1 Felis silvestris bieti (Chinese desert cat)
+     ╭ 99 ┤
+     │    ╰────────────────── NC_028308.1 Felis margarita (Sand cat)
+─ 97 ┤
+     │    ╭────────────────── NC_028309.1 Felis nigripes (Black-footed cat)
+     ╰ 97 ┤
+          ╰────────────────── NC_028307.1 Felis chaus (Jungle cat)
+```
+
 ## Installation
 
 Clone this repository to your local machine with git, then install with Python.
@@ -52,23 +68,7 @@ believe the network adapter doesn't like being hounded by multiple processes.*
 
 ## Example Output
 
-Here is our resultant "Felis" (cat genus) molecular phylogeny:
-
-```txt
-                            ╭ MT499915.1 Felis catus (Domestic cat)
-                      ╭ 100 ┤
-                      │     ╰ KP202275.1 Felis silvestris lybica (Near Eastern wildcat)
-                ╭ 100 ┤
-                │     ╰────── NC_028310.1 Felis silvestris (Wild cat)
-          ╭ 100 ┤
-          │     ╰──────────── KP202273.1 Felis silvestris bieti (Chinese desert cat)
-     ╭ 99 ┤
-     │    ╰────────────────── NC_028308.1 Felis margarita (Sand cat)
-─ 97 ┤
-     │    ╭────────────────── NC_028309.1 Felis nigripes (Black-footed cat)
-     ╰ 97 ┤
-          ╰────────────────── NC_028307.1 Felis chaus (Jungle cat)
-```
+The resultant "Felis" (cat genus) molecular phylogeny can be viewed above.
 
 Here is our resultant "Canis" (dog genus) molecular phylogeny:
 
