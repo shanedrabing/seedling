@@ -1,0 +1,155 @@
+digraph {
+    labelloc="t"
+    rankdir="LR"
+
+    color=red
+    fontcolor=red
+    fontname="Arial"
+
+    node [shape=plain fontname="Arial"]
+
+    subgraph cluster00 {
+        label="seedling.py"
+        bgcolor="#FFEEEE"
+        main_seed [label="main" style=filled color=none fillcolor="#FFBBBB" shape=rect]
+    }
+
+    subgraph cluster01 {
+        label="arboretum.py"
+        bgcolor="#FFEEEE"
+        main_arb [label="main" style=filled color=none fillcolor="#FFBBBB" shape=rect]
+        system
+        tick
+    }
+
+    subgraph cluster03 {
+        label="trim_region.cpp"
+        bgcolor="#FFEEEE"
+        main_trim [label="main" style=filled color=none fillcolor="#FFBBBB" shape=rect]
+    }
+
+    subgraph cluster04 {
+        label="calc_dist.cpp"
+        bgcolor="#FFEEEE"
+        main_dist [label="main" style=filled color=none fillcolor="#FFBBBB" shape=rect]
+    }
+
+    subgraph cluster02 {
+        label="ncbi_eutils.py"
+        bgcolor="#FFEEEE"
+        main_ncbi [label="main" style=filled color=none fillcolor="#FFBBBB" shape=rect]
+        title
+        get
+        parse_docsum
+        parse_xml
+        filter_xml
+        fasta_columns
+        write_fasta
+        append_fullnames
+        append_reads
+        download_taxa_mtdna
+        eutils
+        efetch_fasta
+        esearch_json
+        esearch_mtdna_json
+        esummary_taxonomy_json
+        esummary_nucleotide_xml
+    }
+
+    subgraph cluster05 {
+        label="calc_tree.py"
+        bgcolor="#FFEEEE"
+        main_tree [label="main" style=filled color=none fillcolor="#FFBBBB" shape=rect]
+        subgraph cluster06 {
+            label="Node"
+            color=blue
+            fontcolor=blue
+            bgcolor="#EEEEFF"
+
+            __init__ [style=filled color=none fillcolor="#BBBBFF" shape=rect]
+            __str__
+            __lt__
+            num_children
+            add_child
+            connect
+            pretty
+        }
+        node_distance
+        next_connection
+    }
+
+    subgraph cluster07 {
+        label="dna_alignment.c"
+        bgcolor="#FFEEEE"
+        score_identity
+        score_transition_transversion
+        global_align_score
+        local_align_trace
+    }
+
+    subgraph cluster08 {
+        label="utils_fasta.cpp"
+        bgcolor="#FFEEEE"
+        read_fasta
+    }
+
+    // REPL
+    main_seed:e->main_arb:w
+
+    // CLI
+    main_arb:e->tick:w
+    main_arb:e->system:w
+
+    system:e->main_ncbi:w
+    system:e->main_trim:w
+    system:e->main_dist:w
+    system:e->main_tree:w
+
+    // NCBI
+    main_ncbi:e->download_taxa_mtdna:w
+
+    download_taxa_mtdna:e->esearch_mtdna_json:w
+    download_taxa_mtdna:e->esummary_nucleotide_xml:w
+    download_taxa_mtdna:e->filter_xml:w
+    download_taxa_mtdna:e->append_fullnames:w
+    download_taxa_mtdna:e->append_reads:w
+    download_taxa_mtdna:e->write_fasta:w
+
+    esearch_mtdna_json:e->esearch_json:w
+    esummary_nucleotide_xml:e->eutils:w
+    filter_xml:e->parse_xml:w
+    filter_xml:e->get:w
+    append_fullnames:e->esummary_taxonomy_json:w
+    append_fullnames:e->title:w
+    append_reads:e->efetch_fasta:w
+    write_fasta:e->fasta_columns:w
+
+    esearch_json:e->eutils:w
+    esummary_taxonomy_json:e->parse_docsum:w
+    efetch_fasta:e->eutils:w
+
+    # trimming
+    main_trim:e->read_fasta:w
+    main_trim:e->local_align_trace:w
+    local_align_trace:e->score_identity:w
+
+    # distance calculation
+    main_dist:e->read_fasta:w
+    main_dist:e->global_align_score:w
+    global_align_score:e->score_transition_transversion:w
+
+    # tree building
+    __lt__:e->num_children:w
+    connect:e->__init__:w
+    connect:e->__lt__:w
+    connect:e->add_child:w
+    main_tree:e->__init__:w
+    main_tree:e->next_connection:w
+    main_tree:e->pretty:w
+    next_connection:e->connect:w
+    next_connection:e->node_distance:w
+    pretty:e->__str__:w
+
+    num_children->num_children
+    pretty->pretty
+}
