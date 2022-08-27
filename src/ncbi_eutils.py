@@ -160,7 +160,7 @@ def eutils(cgi, **options):
 
 def efetch_fasta(itr):
     ids = ",".join(map(str, itr))
-    resp = eutils("efetch", db="nuccore", rettype="fasta", id=ids)
+    resp = eutils("efetch", db="nucleotide", rettype="fasta", id=ids)
     if resp.status_code != 200:
         return
     return resp.content.decode("utf-8").strip()
